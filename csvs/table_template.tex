@@ -1,0 +1,27 @@
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{lccr}
+    \hline
+    {% for col in head %}
+        \textbf{ {{col}} }
+        {% if not forloop.last %}
+           &
+        {% endif %}
+    {% endfor %} 
+    \\
+    \hline
+    {% for row in table %}
+        {% for cell in row %}
+            {{cell}}
+            {% if not forloop.last %} 
+               &
+            {% endif %}
+        {% endfor %}
+        \\
+    {% endfor %}
+    \hline
+    \end{tabular}
+    \caption{Simple Phonebook}
+    \label{tab:ASQvsCSQ}
+\end{table}

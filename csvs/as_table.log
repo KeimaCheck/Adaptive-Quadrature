@@ -1,0 +1,35 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.11)  14 NOV 2014 14:14
+entering extended mode
+**C:/Users/Nicholas/Dropbox/nummeth*project/csvs/as_table.tex
+("C:/Users/Nicholas/Dropbox/nummeth project/csvs/as_table.tex"
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 68 languages loaded.
+
+! LaTeX Error: Environment table undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{table}
+                 [H]
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.2 \begin{table}
+                 [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+ 
+Here is how much of TeX's memory you used:
+ 9 strings out of 493705
+ 374 string characters out of 3144560
+ 52149 words of memory out of 3000000
+ 3429 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 5i,0n,4p,84b,16s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
